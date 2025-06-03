@@ -22,14 +22,14 @@ const cards = [
   {
     title: 'Tesoros escondidos',
     description: 'Descubre los secretos de Cartagena',
-    image: './imagenes/Cartagena-de-Indias_opt.jpg',
+    image: '/imagenes/Cartagena-de-Indias_opt.jpg',
     link: `https://wa.me/${whatsapp}?text=¡Hola! Quiero conocer los lugares escondidos de Cartagena.`,
   },
   {
-    title: 'COMBINA TU AVENTURA',
+    title: 'Combina tu aventura',
     description: 'Crea tu propio tour personalizado',
-    image: './imagenes/OIP.jpg',
-    link: `https://wa.me/${whatsapp}?text=¡Hola! Quiero armar mi propio tour personalizado.`,
+    image: '/imagenes/OIP.jpg',
+    link: `https://wa.me/${whatsapp}?text=¡Hola! Quiero combinar mi propio tour personalizado.`,
   },
 ]
 
@@ -48,8 +48,8 @@ export default function Hero() {
   const nextSlide = () => setIndex((prev) => (prev + 1) % cards.length)
 
   return (
-    <section className="relative w-full h-[100dvh] md:h-screen overflow-hidden text-[#ffffff] scroll-smooth">
-      {/* Fondo con transición */}
+    <section className="relative w-full h-[100vh] overflow-hidden text-[#ffffff]">
+      {/* Fondo dinámico */}
       <AnimatePresence mode="wait">
         <motion.img
           key={cards[index].image}
@@ -59,7 +59,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 1 }}
-          className="absolute inset-0 w-full h-full object-cover object-center"
+          className="absolute inset-0 w-full h-full object-cover "
         />
       </AnimatePresence>
 
@@ -84,13 +84,13 @@ export default function Hero() {
         </button>
       </div>
 
-      {/* Contenido superpuesto */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full px-6 text-center mt-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg leading-tight text-white">
+      {/* Contenido */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full px-6 text-center">
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg leading-tight text-[#ffffff]">
           Descubre momentos<br /> de viaje inolvidables
         </h1>
         <p className="text-lg md:text-2xl mb-8 drop-shadow-md">
-          Elige entre experiencias únicas en Cartagena
+          Elige experiencias<br></br> únicas en Cartagena  
         </p>
 
         {/* Indicadores de slide */}
@@ -112,10 +112,10 @@ export default function Hero() {
           rel="noopener noreferrer"
           className="bg-white/20 backdrop-blur-md text-white px-10 py-4 rounded-full text-lg font-semibold shadow-lg transition hover:bg-white/30"
         >
-          ¡Reserva ahora!
+          Reserva ahora!!
         </a>
 
-        {/* CTA adicional con scroll suave */}
+        {/* CTA adicional */}
         <a
           href="#Toures"
           className="mt-4 inline-block text-white/90 hover:text-white text-base underline underline-offset-4 transition-all duration-300 font-semibold"

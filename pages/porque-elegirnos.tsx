@@ -7,7 +7,7 @@ export default function PorqueElegirnos() {
       
       
       
-      <section className="bg-[#E8DFF1] py-16">
+      <section className="bg-[#E8DFF1] py-40">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-12 text-[#612F74]">¿Por qué elegir ExploraTour?</h2>
           <div className="grid md:grid-cols-3 gap-8">
