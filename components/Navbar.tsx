@@ -16,7 +16,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="bg-white/10 backdrop-blur-sm shadow-md fixed w-full top-0 z-50">
+    <nav className="bg-white/10 backdrop-blur-sm shadow-md fixed w-full top-0 z-50 ">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 text-xl font-bold">
@@ -40,7 +40,7 @@ export default function Navbar() {
             { href: '/servicios', label: 'Servicios' },
             { href: '/faq', label: 'FAQ' },
             { href: '/contacto', label: 'Contacto' },
-            { href: '/exploratourlanding', label: 'Landing' },
+            
           ].map(({ href, label }) => (
             <Link key={href} href={href}>
               <button className="hover:text-[#e0b3ff] transition px-3 py-1 rounded-md">
@@ -53,7 +53,7 @@ export default function Navbar() {
 
       {/* Menú móvil */}
       {menuAbierto && (
-        <div className="md:hidden flex flex-col items-center gap-3 pb-4 font-semibold bg-white/20 backdrop-blur-md text-[#ffffff] shadow-lg">
+        <div className="md:hidden flex flex-col items-center gap-3 pb-4 font-semibold bg-white/20 backdrop-blur-md  shadow-lg">
           {[
             { href: '/', label: 'Inicio' },
             { href: '/quienes-somos', label: '¿Quiénes somos?' },

@@ -12,7 +12,7 @@ const tours = [
     descripcion: 'Navega en lancha rápida y disfruta de playas cristalinas y snorkel.',
     duracion: '8 horas',
     precio: '$150.000 COP',
-    imagen: 'https://source.unsplash.com/800x600/?beach,caribbean'
+    imagen: '/imagenes/saltando.jpg'
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const tours = [
     descripcion: 'Explora la historia, cultura y rincones ocultos de la ciudad amurallada.',
     duracion: '3 horas',
     precio: '$90.000 COP',
-    imagen: 'https://source.unsplash.com/800x600/?cartagena,city'
+    imagen: '/imagenes/paseo en coche.jpg'
   },
   {
     id: 3,
@@ -28,7 +28,14 @@ const tours = [
     descripcion: 'Fiesta sobre ruedas con música, luces y bebidas típicas.',
     duracion: '2 horas',
     precio: '$70.000 COP',
-    imagen: 'https://source.unsplash.com/800x600/?party,bus'
+    imagen: '/imagenes/chiva-rumbera.jpeg'
+  },
+  {id: 4,
+    nombre: 'Tour Gastronómico ',
+    descripcion: 'Conoce la deliciosa comida local con un recorrido por los mejores restaurantes y mercados.',
+    duracion: '2 horas',
+    precio: '$70.000 COP',
+    imagen: '/imagenes/gastronomia_0.jpg'
   }
 ]
 
