@@ -7,19 +7,19 @@ import Image from 'next/image'
 
 const images = [
   {
-    src: '/./familia feliz.jpg',
+    src: '/familia-feliz.jpg',
     alt: 'Familia Feliz',
     title: 'Descubre Cartagena  en Familia como nunca',
     subtitle: 'Tours exclusivos en los lugares más icónicos',
   },
   {
-    src: '/./saltando.jpg',
+    src: '/cyty-tour.jpeg',
     alt: 'Aventura en bote',
     title: 'Explora el Caribe con estilo',
     subtitle: 'Paseos en yate, islas y experiencias premium',
   },
   {
-    src: '/./mujer-viajera-1200x840.jpg',
+    src: '/mujer-viajera-1200x840.jpg',
     alt: 'Mujer Viajera',
     title: 'Descubre Paisajes Increibles',
     subtitle: 'Tours guiados por los rincones históricos',

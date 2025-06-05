@@ -12,7 +12,7 @@ const tours = [
     descripcion: 'Navega en lancha rápida y disfruta de playas cristalinas y snorkel.',
     duracion: '8 horas',
     precio: '$150.000 COP',
-    imagen: '/imagenes/saltando.jpg',
+    imagen: '/saltando.jpg',
     beneficios: ['⛵ Lancha rápida', '🤿 Snorkel', '🏖️ Playas cristalinas'],
     popular: true,
   },
@@ -22,7 +22,7 @@ const tours = [
     descripcion: 'Explora la historia, cultura y rincones ocultos de la ciudad amurallada.',
     duracion: '3 horas',
     precio: '$90.000 COP',
-    imagen: '/imagenes/paseo en coche.jpg',
+    imagen: '/paseo en coche.jpg',
     beneficios: ['🏛️ Historia', '📸 Paradas para fotos', '🚶 Recorrido guiado'],
     popular: false,
   },
@@ -32,7 +32,7 @@ const tours = [
     descripcion: 'Fiesta sobre ruedas con música, luces y bebidas típicas.',
     duracion: '2 horas',
     precio: '$70.000 COP',
-    imagen: '/imagenes/chiva-rumbera.jpeg',
+    imagen: '/chiva-rumbera.jpeg',
     beneficios: ['🎶 Música', '🍹 Bebidas típicas', '🚌 Chiva festiva'],
     popular: false,
   },
@@ -42,14 +42,14 @@ const tours = [
     descripcion: 'Conoce la deliciosa comida local con un recorrido por los mejores restaurantes y mercados.',
     duracion: '2 horas',
     precio: '$70.000 COP',
-    imagen: '/imagenes/gastronomia_0.jpg',
+    imagen: '/gastronomia_0.jpg',
     beneficios: ['🍽️ Degustaciones', '🛍️ Mercados locales', '👨‍🍳 Experiencia culinaria'],
     popular: false,
   }
 ]
 
 export default function Tours() {
-  const numeroWhatsApp = '573001112233'
+  const numeroWhatsApp = '+573022265668'
 
   return (
     <div className="relative">

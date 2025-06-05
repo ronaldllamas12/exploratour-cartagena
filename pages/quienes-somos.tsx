@@ -22,7 +22,7 @@ export default function QuienesSomos() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <img
-              src="/imagenes/quienes-somos.jpg"
+              src="/quienes-somos.jpg"
               alt="Nuestro equipo"
               className="rounded-xl shadow-xl object-cover w-full h-auto aspect-video transition-transform duration-300 hover:scale-105"
             />
