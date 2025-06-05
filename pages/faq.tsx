@@ -1,8 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import SEO from '../components/SEO'
 import { ChevronDown, ChevronUp } from 'lucide-react'
 
@@ -44,7 +42,7 @@ export default function FAQ() {
 
   return (
     <>
-      <SEO title="Preguntas Frecuentes - ExploraTours" description="Resuelve tus dudas sobre nuestros servicios y toures." />
+      <SEO title="ExploraTours" description="Resuelve tus dudas sobre nuestros servicios y toures." />
       
 
       <main className="max-w-3xl mx-auto p-6 mt-10 mb-20 animate-fadeIn">
