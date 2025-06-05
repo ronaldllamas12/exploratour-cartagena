@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-const whatsapp = '573001112233' // reemplaza con tu número real
+const whatsapp = '+573022265668' // reemplaza con tu número real
 
 const slides = [
   { tipo: 'imagen', src: './imagenes/collage_horizontal_exploratours.png', alt: 'Slide 1' },
