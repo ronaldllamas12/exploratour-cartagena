@@ -2,11 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost'],
-    unoptimized: true,
+    // Si tus imágenes están en la carpeta `public`, no necesitas configurar `domains`.
+    // Si usas un CDN o un dominio externo, agrégalo aquí.
+    // Por ejemplo: domains: ['example.com'],
   },
 }
 
 module.exports = nextConfig
-
-    
