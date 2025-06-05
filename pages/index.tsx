@@ -9,7 +9,7 @@ import FAQ from './faq'
 import Contacto from './contacto'
 import Navbar from '../components/Navbar'
 import Toures from './toures'
-import HeroConSlider from '../components/HeroConSlider'
+import Hero from '../components/HeroConSlider'
 import Footer from '../components/Footer'
 import PorqueElegirnos from './porque-elegirnos'
 import SeccionTours from './toures1';
@@ -29,7 +29,7 @@ export default function Home() {
 
       <Navbar />
       
-      <HeroConSlider />
+      <Hero />
 
       <main className=" relative w-full  px-6 py-18 text-white">
         <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#ca34ff] via-[#960cbf] to-[#790c97] mb-8 animate-fadeIn text-center">
