@@ -43,11 +43,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen overflow-hidden bg-black text-white-50">
       {/* Logo */}
-      <img
-        src="/logo.png"
-        alt="ExploraTour logo"
-        className="absolute top-6 left-6 w-36 md:w-44 z-30"
-      />
+     
 
       {/* Imagen de fondo */}
       <AnimatePresence mode="wait">
@@ -106,7 +102,7 @@ const Hero = () => {
           whileHover={{ scale: 1.05 }}
           className="flex items-center gap-2 bg-gradient-to-r from-seance-600 to-seance-800 text-white-50 px-10 py-4 rounded-full text-lg font-bold shadow-lg transition"
         >
-          <MessageCircle size={20} /> Reserva ahora
+          <MessageCircle size={20} /> ¡Reserva ahora!
         </motion.a>
 
         {/* Prueba social */}

@@ -59,7 +59,7 @@ export default function Footer() {
               />
               <button
                 type="submit"
-                className="bg-pink-600 hover:bg-pink-700 transition-colors duration-300 rounded py-2 font-semibold"
+                className="bg-pink-500 hover:bg-pink-700 transition-colors duration-300 rounded py-2 font-semibold"
               >
                 Suscribirse
               </button>
