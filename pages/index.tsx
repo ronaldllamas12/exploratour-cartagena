@@ -27,9 +27,9 @@ export default function Home() {
         image="/imagenes/preview.jpg"
       />
 
-      <Navbar />
+        <Navbar />
       
-      <Hero />
+        <Hero />
 
       <main className=" relative w-full  px-6 py-18 text-white">
         <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#ca34ff] via-[#960cbf] to-[#790c97] mb-8 animate-fadeIn text-center">

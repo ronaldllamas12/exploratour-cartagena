@@ -7,28 +7,27 @@ import Image from 'next/image'
 
 const images = [
   {
-    src: '/imagenes/familia feliz.jpg',
+    src: '/./familia feliz.jpg',
     alt: 'Familia Feliz',
     title: 'Descubre Cartagena  en Familia como nunca',
-    subtitles: 'Tours exclusivos en los lugares más icónicos',
+    subtitle: 'Tours exclusivos en los lugares más icónicos',
   },
   {
-    src: '/imagenes/saltando.jpg',
+    src: '/./saltando.jpg',
     alt: 'Aventura en bote',
     title: 'Explora el Caribe con estilo',
-    subtitles: 'Paseos en yate, islas y experiencias premium',
+    subtitle: 'Paseos en yate, islas y experiencias premium',
   },
   {
-    src: '/imagenes/mujer-viajera-1200x840.jpg',
+    src: '/./mujer-viajera-1200x840.jpg',
     alt: 'Mujer Viajera',
-
     title: 'Descubre Paisajes Increibles',
-    subtitles: 'Tours guiados por los rincones históricos',
+    subtitle: 'Tours guiados por los rincones históricos',
   },
 ]
 export default function Hero(){
     const [index, setIndex] = useState(0)
-    const whatsapp = '573022265668'
+    const whatsapp = '+573022265668'
 
     useEffect(() => {
       const interval = setInterval(() => {
@@ -84,13 +83,13 @@ export default function Hero(){
           </motion.h1>
 
           <motion.p
-            key={image.subtitles}
+            key={image.subtitle}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-lg md:text-2xl mb-6 bg-black-30 px-4 py-2 rounded-lg drop-shadow-md"
           >
-            {image.subtitles}
+            {image.subtitle}
           </motion.p>
 
           {/* Botón de reserva */}
@@ -101,7 +100,7 @@ export default function Hero(){
             whileHover={{ scale: 1.05 }}
             className="flex items-center gap-2 bg-gradient-to-r from-seance-600 to-seance-800 text-white-50 px-10 py-4 rounded-full text-lg font-bold shadow-lg transition"
           >
-            <MessageCircle size={20} /> ¡Reserva ahora!
+            <MessageCircle size={24} /> ¡Reserva ahora!
           </motion.a>
 
           {/* Prueba social */}

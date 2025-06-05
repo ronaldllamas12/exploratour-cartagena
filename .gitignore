@@ -34,5 +34,5 @@ yarn-error.log*
 # Misc
 *.log
 *.swp
-.next/
+
 node_modules
