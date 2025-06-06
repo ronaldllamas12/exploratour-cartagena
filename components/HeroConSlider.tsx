@@ -12,13 +12,13 @@ const images = [
     subtitle: 'Tours exclusivos en los lugares más icónicos',
   },
   {
-    src: '/city-tour.jpg',
+    src: '/city-tour.jpeg',
     alt: 'Aventura en bote',
     title: 'Explora el Caribe con estilo',
     subtitle: 'Paseos en yate, islas y experiencias premium',
   },
   {
-    src: '/mujer-viajera.jpg',
+    src: '/mujer-viajera-1200x840.jpg',
     alt: 'Mujer Viajera',
     title: 'Descubre Paisajes Increíbles',
     subtitle: 'Tours guiados por los rincones históricos',
