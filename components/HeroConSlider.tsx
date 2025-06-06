@@ -1,6 +1,6 @@
 'use client'
 
-const whatsapp = '573001112233'
+const whatsapp = '+573022265668'
 
 const cards = [
   {
