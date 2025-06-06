@@ -25,7 +25,7 @@ const cards = [
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-screen overflow-hidden text-white">
+    <section className="relative w-full min-h-screen overflow-hidden text-white-50">
       {/* Fondo parallax */}
       <div
         className="absolute inset-0 z-0 flex"
@@ -46,7 +46,7 @@ export default function Hero() {
       </div>
 
       {/* Capa oscura para contraste */}
-      <div className="absolute inset-0 bg-black/60 z-10" />
+      <div className="absolute inset-0 bg-black-60 z-10" />
 
       {/* Contenido superpuesto */}
       <div className="relative z-20 flex flex-col items-center justify-center min-h-screen px-6 text-center">
@@ -60,7 +60,7 @@ export default function Hero() {
           href={`https://wa.me/${whatsapp}?text=¡Hola! Quiero reservar un tour con ExploraTour`}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-seance hover:bg-[#a125c6] text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg transition"
+          className="bg-seance hover:bg-[#a125c6] text-white-50 px-8 py-3 rounded-full text-lg font-semibold shadow-lg transition"
         >
           Reserva ahora
         </a>
@@ -73,7 +73,7 @@ export default function Hero() {
               href={card.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/20 backdrop-blur-md border border-white/30 text-white rounded-2xl overflow-hidden shadow-2xl hover:scale-105 transition-transform transform duration-300"
+              className="bg-white-300 backdrop-blur-md border border-white-30 text-white rounded-2xl overflow-hidden shadow-2xl hover:scale-105 transition-transform transform duration-300"
             >
               <div
                 className="h-48 bg-cover bg-center"
