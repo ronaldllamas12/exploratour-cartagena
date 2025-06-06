@@ -6,19 +6,19 @@ const cards = [
   {
     title: 'Escapadas encantadoras',
     description: 'Playas, islas e historia colonial',
-    image: '/imagenes/cartagena2.png',
+    image: '/cartagena.jpg',
     link: `https://wa.me/${whatsapp}?text=¡Hola! Estoy interesado en los toures de escapadas.`,
   },
   {
     title: 'Experiencias auténticas',
     description: 'Música, danza y sabores locales',
-    image: '/imagenes/Isla-del-Rosario-1024x508.jpg',
+    image: '/Isla-del-Rosario-1024x508.jpg',
     link: `https://wa.me/${whatsapp}?text=¡Hola! Cuéntame más sobre experiencias culturales.`,
   },
   {
     title: 'Tesoros escondidos',
     description: 'Descubre los secretos de Cartagena',
-    image: '/imagenes/botas-viejas.png',
+    image: '/botas-viejas.png',
     link: `https://wa.me/${whatsapp}?text=¡Hola! Quiero conocer los lugares escondidos de Cartagena.`,
   },
 ]
