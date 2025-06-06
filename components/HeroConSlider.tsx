@@ -12,7 +12,7 @@ const images = [
     subtitle: 'Tours exclusivos en los lugares más icónicos',
   },
   {
-    src: '/city-tour.jpeg',
+    src: '/Cartagena-de-Indias_opt.jpg',
     alt: 'Aventura en bote',
     title: 'Explora el Caribe con estilo',
     subtitle: 'Paseos en yate, islas y experiencias premium',
